@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics</title>
+</head>
+<body>
+    <div>Welcome to javascript</div>
+
+    <script src="controlStructures/loop.js">
+        
+        // Actions Is an Array containing Three strings: 
+        const actions = ["start", "stop", "pause"];
+
+        // userAction is Set to the String "start"
+        let userAction = "start";
+
+        // isLoggedIn is a Boolean variable set to true.
+        let isLoggedIn = true;
+
+        // THE SWITCH (true) STATEMENT evaluates the following cases based on the value of true. Meaning, it's using the true value as a placeholder for comparison.
+         switch (true) {
+
+            // Case 1: Checks if userAction (which is "start") exists in the actions array AND if the user is logged in
+            case actions.includes(userAction) && isLoggedIn:
+                console.log("Action permitted: " + userAction);
+                break;
+
+            // case 2: Checks if userAction exists in the actions array AND user is not logged in
+            case actions.includes(userAction) && !isLoggedIn:
+                console.log("please log in to perform this.");
+                break;
+
+            // Default Case: if None of the Above cases match, it falls back to default Case.
+            default:
+                console.log("No valid case found.");
+
+                // SINCE BOTH CONDITIONS ARE MET FOR CASE 1: IT LOGS "ACTION PERMITTED: "START" TO THE CONSOLE.
+            }
+        
+    </script>
+</body>
+</html>
