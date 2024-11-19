@@ -60,6 +60,8 @@ for (let i = 0; i < userInfo.length; i++) {
     console.log("Course:", userInfo[i].course);
 }
 
+
+// syntax for while loop below.
 // while loop
 // let i = 0;
 // while (i < 5) {
@@ -67,3 +69,15 @@ for (let i = 0; i < userInfo.length; i++) {
 //     i++
 // }
 
+// Class details containing students names, age, course, gender,
+
+const studentDetails = [
+    { name: 'Ladipoe Branch', course: 'Cyber-security', age: 24, gender: 'male', phone: '+234 814352748921' },
+    { name: 'Tony Vory', course: 'Data-Science', age: 21, gender: 'male', phone: '+1 53742973419' },
+    { name: 'Maria tequsha', course: 'Dev-ops', age: 22, gender: 'female', phone: '+44 379625408' },
+    { name: 'samantha jaquin', course: 'Web Dev', age: 27, gender: 'female', phone: '+44 362912931'}
+]
+
+for (let i = 0; i < studentDetails.length; i++) {
+    console.log("userName:", studentDetails[i].name, "Major:", studentDetails[i].course, "age:", studentDetails[i].age, "SEX:", studentDetails[i].gender, "Contact INFO:", studentDetails[i].phone);
+}

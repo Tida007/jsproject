@@ -111,8 +111,3 @@ book.color = "orange",
 delete book.color 
 console.log(book);
 
-
-
-let pounds = 2700;
-let naira = 100;
-console.log(pounds != naira);
