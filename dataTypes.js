@@ -111,3 +111,7 @@ book.color = "orange",
 delete book.color 
 console.log(book);
 
+
+let summer = ["june", "july", "August"];
+let index = summer.indexOf("june"); // indexOf() method searches for the specific value ("june")
+console.log(index)

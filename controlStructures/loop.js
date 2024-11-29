@@ -16,7 +16,7 @@ let pageNames = [
     "conditionalStatement",
     "operators"
 ];
-for (i = 0; i < pageNames.length; i += 1) {
+for (i = 0; i < pageNames.length; i++) {
     if (document.title === pageNames[i]) {
         console.log("We are currently here: " + pageNames[i]);
         break;
